@@ -15,7 +15,7 @@ namespace _75Hard
         private const string Water_4Key = "Water_4";
         private const string Book_ReadKey = "Book_Read";
         private const string Progress_PictureKey = "Progress_Picture";
-        private const string Day_CounterKey = "0";
+        private const string Day_CounterKey = "Day_Counter";
         public App()
         {
             InitializeComponent();
@@ -34,7 +34,7 @@ namespace _75Hard
         protected override void OnResume()
         {
         }
-        public bool Exercise_1
+        public bool Excercise_1
         {
             get
             {
@@ -50,7 +50,7 @@ namespace _75Hard
             }
         }
 
-        public bool Exercise_2
+        public bool Excercise_2
         {
             get
             {
@@ -194,15 +194,15 @@ namespace _75Hard
             }
         }
 
-        public int Day_Counter
+        public string Day_Counter
         {
             get
             {
                 if (Properties.ContainsKey(Day_CounterKey))
                 {
-                    return Convert.ToInt32(Properties[Day_CounterKey]);
+                    return Properties[Day_CounterKey].ToString();
                 }
-                return 0;
+                return "Day Counter: 0";
             }
             set
             {

@@ -6,19 +6,22 @@
         HorizontalOptions="CenterAndExpand"
         VerticalOptions="CenterAndExpand">
         <StackLayout>
-            <Label 
-                x:Name="Day_Counter"
-                Text="Day Counter: "
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="Start"
-                FontSize="Title"
-                Margin="0, 0, 0, 50"/>
+
+            <Label x:Name="lb_Day_Counter"
+                   Text="{Binding Day_Counter}"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Start"
+                   FontSize="Title"
+                   Margin="0, 0, 0, 50"/>
+
             <Grid Padding="30">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
+
                 <CheckBox x:Name="cb_Exercise_1"
-                          CheckedChanged="CheckedChanged_1"
+                          IsChecked="{Binding Excercise_1}"
+                          CheckedChanged="CheckedChanged"
                           Grid.Column="0"
                           Grid.Row="0"/>
 
@@ -27,7 +30,8 @@
                        Grid.Row="0"/>
 
                 <CheckBox x:Name="cb_Exercise_2"
-                          CheckedChanged="CheckedChanged_2"
+                          IsChecked="{Binding Excercise_2}"
+                          CheckedChanged="CheckedChanged"
                           Grid.Column="0"
                           Grid.Row="1"/>
 
@@ -36,7 +40,8 @@
                        Grid.Row="1"/>
 
                 <CheckBox x:Name="cb_Diet"
-                          CheckedChanged="CheckedChanged_3"
+                          IsChecked="{Binding Diet}"
+                          CheckedChanged="CheckedChanged"
                           Grid.Column="0"
                           Grid.Row="2"/>
 
@@ -45,7 +50,8 @@
                        Grid.Row="2"/>
 
                 <CheckBox x:Name="cb_Study"
-                          CheckedChanged="CheckedChanged_4"
+                          IsChecked="{Binding Study}"
+                          CheckedChanged="CheckedChanged"
                           Grid.Column="0"
                           Grid.Row="3"/>
 
@@ -54,7 +60,8 @@
                        Grid.Row="3"/>
 
                 <CheckBox x:Name="cb_Water_1"
-                          CheckedChanged="CheckedChanged_5"
+                          IsChecked="{Binding Water_1}"
+                          CheckedChanged="CheckedChanged"
                           Grid.Column="0"
                           Grid.Row="4"/>
 
@@ -63,7 +70,8 @@
                        Grid.Row="4"/>
 
                 <CheckBox x:Name="cb_Water_2"
-                          CheckedChanged="CheckedChanged_6"
+                          IsChecked="{Binding Water_2}"
+                          CheckedChanged="CheckedChanged"
                           Grid.Column="0"
                           Grid.Row="5"/>
 
@@ -72,7 +80,8 @@
                        Grid.Row="5"/>
 
                 <CheckBox x:Name="cb_Water_3"
-                          CheckedChanged="CheckedChanged_7"
+                          IsChecked="{Binding Water_3}"
+                          CheckedChanged="CheckedChanged"
                           Grid.Column="0"
                           Grid.Row="6"/>
 
@@ -81,7 +90,8 @@
                        Grid.Row="6"/>
 
                 <CheckBox x:Name="cb_Water_4"
-                          CheckedChanged="CheckedChanged_8"
+                          IsChecked="{Binding Water_4}"
+                          CheckedChanged="CheckedChanged"
                           Grid.Column="0"
                           Grid.Row="7"/>
 
@@ -90,7 +100,8 @@
                        Grid.Row="7"/>
 
                 <CheckBox x:Name="cb_Book_Read"
-                          CheckedChanged="CheckedChanged_9"
+                          IsChecked="{Binding Book_Read}"
+                          CheckedChanged="CheckedChanged"
                           Grid.Column="0"
                           Grid.Row="8"/>
 
@@ -99,7 +110,8 @@
                        Grid.Row="8"/>
 
                 <CheckBox x:Name="cb_Progress_Picture"
-                          CheckedChanged="CheckedChanged_10"
+                          IsChecked="{Binding Progress_Picture}"
+                          CheckedChanged="CheckedChanged"
                           Grid.Column="0"
                           Grid.Row="9"/>
 
@@ -110,7 +122,7 @@
 
             <Button Text="Day Done!"
                     Clicked="Button_Clicked_Day_Done"/>
-            
+
             <Button Text="Check All"
                     Clicked="Button_Clicked_Check_All"/>
         </StackLayout>
