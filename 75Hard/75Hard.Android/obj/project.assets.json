@@ -1939,11 +1939,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\Mobile\\Xamarin\\75Hard\\75Hard\\75Hard.Android\\75Hard.Android.csproj",
+      "projectUniqueName": "I:\\Mobile\\Xamarin\\75Hard\\75_Hard\\75Hard\\75Hard.Android\\75Hard.Android.csproj",
       "projectName": "75Hard.Android",
-      "projectPath": "I:\\Mobile\\Xamarin\\75Hard\\75Hard\\75Hard.Android\\75Hard.Android.csproj",
+      "projectPath": "I:\\Mobile\\Xamarin\\75Hard\\75_Hard\\75Hard\\75Hard.Android\\75Hard.Android.csproj",
       "packagesPath": "C:\\Users\\Ollie's\\.nuget\\packages\\",
-      "outputPath": "I:\\Mobile\\Xamarin\\75Hard\\75Hard\\75Hard.Android\\obj\\",
+      "outputPath": "I:\\Mobile\\Xamarin\\75Hard\\75_Hard\\75Hard\\75Hard.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1964,8 +1964,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "I:\\Mobile\\Xamarin\\75Hard\\75Hard\\75Hard\\75Hard.csproj": {
-              "projectPath": "I:\\Mobile\\Xamarin\\75Hard\\75Hard\\75Hard\\75Hard.csproj"
+            "I:\\Mobile\\Xamarin\\75Hard\\75_Hard\\75Hard\\75Hard\\75Hard.csproj": {
+              "projectPath": "I:\\Mobile\\Xamarin\\75Hard\\75_Hard\\75Hard\\75Hard\\75Hard.csproj"
             }
           }
         }
