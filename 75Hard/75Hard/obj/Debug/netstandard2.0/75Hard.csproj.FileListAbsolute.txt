@@ -33,3 +33,4 @@ I:\Mobile\Xamarin\75Hard\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\75Hard.c
 I:\Mobile\Xamarin\75Hard\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\75Hard.dll
 I:\Mobile\Xamarin\75Hard\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\ref\75Hard.dll
 I:\Mobile\Xamarin\75Hard\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\75Hard.pdb
+I:\Mobile\Xamarin\75Hard\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\75Hard.csprojAssemblyReference.cache

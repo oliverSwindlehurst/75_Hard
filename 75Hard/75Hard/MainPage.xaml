@@ -4,15 +4,17 @@
              x:Class="_75Hard.MainPage">
     <RelativeLayout
         HorizontalOptions="CenterAndExpand"
-        VerticalOptions="CenterAndExpand">
+        VerticalOptions="CenterAndExpand"
+        Margin="20">
         <StackLayout>
 
             <Label x:Name="lb_Day_Counter"
-                   Text="{Binding Day_Counter}"
+                   Text="{Binding Day_Counter, StringFormat='Day Counter: {0}'}"
                    HorizontalOptions="CenterAndExpand"
                    VerticalOptions="Start"
                    FontSize="Title"
                    Margin="0, 0, 0, 50"/>
+
 
             <Grid Padding="30">
                 <Grid.ColumnDefinitions>

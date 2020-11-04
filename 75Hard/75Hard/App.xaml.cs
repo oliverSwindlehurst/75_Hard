@@ -16,6 +16,8 @@ namespace _75Hard
         private const string Book_ReadKey = "Book_Read";
         private const string Progress_PictureKey = "Progress_Picture";
         private const string Day_CounterKey = "Day_Counter";
+        private const string TallyKey = "Tally";
+
         public App()
         {
             InitializeComponent();
@@ -34,6 +36,7 @@ namespace _75Hard
         protected override void OnResume()
         {
         }
+
         public bool Excercise_1
         {
             get
@@ -194,19 +197,36 @@ namespace _75Hard
             }
         }
 
-        public string Day_Counter
+        public int Day_Counter
         {
             get
             {
                 if (Properties.ContainsKey(Day_CounterKey))
                 {
-                    return Properties[Day_CounterKey].ToString();
+                    return (int)Properties[Day_CounterKey];
                 }
-                return "Day Counter: 0";
+                return 0;
             }
             set
             {
                 Properties[Day_CounterKey] = value;
+            }
+        }
+
+        public int Tally
+        {
+            get
+            {
+                if (Properties.ContainsKey(TallyKey))
+                {
+                    return (int)Properties[TallyKey];
+                }
+                return 0;
+            }
+            set
+            {
+                Properties[TallyKey] = value;
+
             }
         }
     }

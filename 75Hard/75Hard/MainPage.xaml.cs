@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Android.Widget;
+using System;
 using Xamarin.Forms;
 
 namespace _75Hard
@@ -13,14 +14,25 @@ namespace _75Hard
 
             BindingContext = Application.Current;
 
+            if (Application.Current.Properties.ContainsKey("Day_Counter"))
+            {
+                counter = (int)Application.Current.Properties["Day_Counter"];
+            }
+
+            if (Application.Current.Properties.ContainsKey("Tally"))
+            {
+                tally = (int)Application.Current.Properties["Tally"];
+            }
+
         }
 
-        private void Button_Clicked_Day_Done(object sender, EventArgs e)
+        private async void Button_Clicked_Day_Done(object sender, EventArgs e)
         {
             if (tally == 10)
             {
                 if (counter == 75)
                 {
+                    await DisplayAlert("Well Done", "Congratulations on completing your 75 Days", "OK");
                     counter = 0;
                 }
                 else
@@ -36,8 +48,11 @@ namespace _75Hard
 
             Uncheck_All();
 
-            lb_Day_Counter.Text = "Day Counter: " + counter;
+            lb_Day_Counter.Text = string.Format("Day Counter: {0}", counter);
 
+            //Why is this needed?
+            Application.Current.Properties["Day_Counter"] = counter;
+            Application.Current.Properties["Tally"] = tally;
         }
         private void Uncheck_All()
         {
@@ -51,6 +66,8 @@ namespace _75Hard
             cb_Water_4.IsChecked = false;
             cb_Book_Read.IsChecked = false;
             cb_Progress_Picture.IsChecked = false;
+
+            tally = 0;
         }
         private void Button_Clicked_Check_All(object sender, EventArgs e)
         {
@@ -64,6 +81,8 @@ namespace _75Hard
             cb_Water_4.IsChecked = true;
             cb_Book_Read.IsChecked = true;
             cb_Progress_Picture.IsChecked = true;
+
+            tally = 10;
         }
         private void CheckedChanged(object sender, CheckedChangedEventArgs e)
         {
@@ -75,6 +94,8 @@ namespace _75Hard
             {
                 tally--;
             }
+
+            Application.Current.Properties["Tally"] = tally;
         }
     }
 }
