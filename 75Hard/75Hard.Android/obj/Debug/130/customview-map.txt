@@ -1,0 +1,54 @@
+@string/appbar_scrolling_view_behavior;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\flyoutcontent.xml
+@string/appbar_scrolling_view_behavior;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\rootlayout.xml
+adaptive-icon;obj\Debug\130\res\mipmap-anydpi-v26\icon.xml
+adaptive-icon;obj\Debug\130\res\mipmap-anydpi-v26\icon_round.xml
+alpha;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\anim\enterfromleft.xml
+alpha;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\anim\exittoleft.xml
+android.support.design.widget.TabLayout;obj\Debug\130\res\layout\tabbar.xml
+android.support.v7.widget.Toolbar;obj\Debug\130\res\layout\toolbar.xml
+androidx.appcompat.widget.Toolbar;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\fallbacktoolbardonotuse.xml
+androidx.appcompat.widget.Toolbar;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\rootlayout.xml
+androidx.appcompat.widget.Toolbar;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\shellcontent.xml
+androidx.appcompat.widget.Toolbar;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\toolbar.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\flyoutcontent.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\rootlayout.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\shellcontent.xml
+androidx.recyclerview.widget.RecyclerView;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\flyoutcontent.xml
+attr;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\values\attrs.xml
+background;obj\Debug\130\res\mipmap-anydpi-v26\icon.xml
+background;obj\Debug\130\res\mipmap-anydpi-v26\icon_round.xml
+cache-path;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\41\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;obj\Debug\130\res\values\colors.xml
+com.google.android.material.appbar.AppBarLayout;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\flyoutcontent.xml
+com.google.android.material.appbar.AppBarLayout;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\rootlayout.xml
+com.google.android.material.appbar.AppBarLayout;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\shellcontent.xml
+com.google.android.material.bottomnavigation.BottomNavigationView;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\bottomtablayout.xml
+com.google.android.material.tabs.TabLayout;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\fallbacktabbardonotuse.xml
+com.google.android.material.tabs.TabLayout;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\rootlayout.xml
+com.google.android.material.tabs.TabLayout;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\tabbar.xml
+declare-styleable;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\values\attrs.xml
+external-cache-path;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\41\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\41\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Debug\130\res\mipmap-anydpi-v26\icon.xml
+foreground;obj\Debug\130\res\mipmap-anydpi-v26\icon_round.xml
+FrameLayout;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\bottomtablayout.xml
+item;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\values\styles.xml
+LinearLayout;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\bottomtablayout.xml
+paths;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\41\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\values\attrs.xml
+resources;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\values\strings.xml
+resources;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\values\styles.xml
+resources;obj\Debug\130\res\values\colors.xml
+resources;obj\Debug\130\res\values\styles.xml
+set;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\anim\enterfromleft.xml
+set;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\anim\enterfromright.xml
+set;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\anim\exittoleft.xml
+set;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\anim\exittoright.xml
+string;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\values\strings.xml
+style;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\values\styles.xml
+style;obj\Debug\130\res\values\styles.xml
+translate;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\anim\enterfromleft.xml
+translate;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\anim\enterfromright.xml
+translate;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\anim\exittoleft.xml
+translate;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\anim\exittoright.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard.Android\obj\Debug\130\lp\42\jl\res\layout\rootlayout.xml

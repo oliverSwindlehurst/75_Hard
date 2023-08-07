@@ -1,5 +1,4 @@
-﻿using Android.Widget;
-using System;
+﻿using System;
 using Xamarin.Forms;
 
 namespace _75Hard
@@ -50,7 +49,6 @@ namespace _75Hard
 
             lb_Day_Counter.Text = string.Format("Day Counter: {0}", counter);
 
-            //Why is this needed?
             Application.Current.Properties["Day_Counter"] = counter;
             Application.Current.Properties["Tally"] = tally;
         }

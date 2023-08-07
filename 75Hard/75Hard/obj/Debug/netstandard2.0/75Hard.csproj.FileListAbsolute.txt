@@ -34,3 +34,18 @@ I:\Mobile\Xamarin\75Hard\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\75Hard.d
 I:\Mobile\Xamarin\75Hard\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\ref\75Hard.dll
 I:\Mobile\Xamarin\75Hard\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\75Hard.pdb
 I:\Mobile\Xamarin\75Hard\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\75Hard.csprojAssemblyReference.cache
+I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\75Hard.csproj.AssemblyReference.cache
+I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\75Hard.GeneratedMSBuildEditorConfig.editorconfig
+I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\App.xaml.g.cs
+I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\75Hard.AssemblyInfoInputs.cache
+I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\75Hard.AssemblyInfo.cs
+I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\75Hard.csproj.CoreCompileInputs.cache
+I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\75Hard.dll
+I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\75Hard.pdb
+I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard\bin\Debug\netstandard2.0\75Hard.deps.json
+I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard\bin\Debug\netstandard2.0\75Hard.dll
+I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard\bin\Debug\netstandard2.0\75Hard.pdb
+I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\XamlC.stamp
+I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\refint\75Hard.dll
+I:\Mobile Development\Xamarin\75_Hard\75Hard\75Hard\obj\Debug\netstandard2.0\ref\75Hard.dll
